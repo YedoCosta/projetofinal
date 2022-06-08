@@ -24,4 +24,4 @@
 14. Instalador Inno Setup (instalação de softwate comercial)<br>
 15. Configuração e Hospedagem na Nuvem<br>
 16. Teste de Software (Unitário)<br>
-17. Documentos UML do projeto Final
+17. Documentos UML do projeto Final (ex data modele)
