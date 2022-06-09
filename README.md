@@ -73,4 +73,4 @@ https://www.w3schools.com/js/default.asp
 >22. Instalador Inno Setup (instalação de softwate comercial)<br>
 >23. Configuração e Hospedagem na Nuvem<br>
 >24. Teste de Software (Unitário)<br>
->25. Documentos UML do projeto Final (ex data modele)
+>25. Documentos UML do projeto Final (ex data modele).
