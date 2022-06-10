@@ -1,9 +1,17 @@
 /* Exemplo de CSS Externo*/
 body{
     background-color: cornsilk;
-
+}
+    /*Pai*/
     ul{
-        backgroun-color: yellow;
+        background-color: yellow;
+    }
+       /*Filho*/
+    li{
+        background-color: brown;
+    }
+       /*Neto*/
+    li a{
+        background-color: aqua;
     }
 
-}
