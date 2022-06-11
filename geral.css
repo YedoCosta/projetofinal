@@ -46,8 +46,11 @@ body{
     }
     ul li a:hover{
  
-        text-decoration: none; 
-        color: blue;
+        /*text-decoration: none; 
+        color: blue;*/
+
+        color: black;
+        background: yellow;
         
      }
      /*==========================================*/
