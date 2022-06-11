@@ -44,5 +44,20 @@ body{
         color: blue;
         
      }
+     /*==========================================*/
+     div {
+        width:200px;
+        height:200px;
+        background-color: #FFF;
+        /* imagem caso o browser não aceite a feature */
+        background-image: url(images/gradiente.png);
+        /* Firefox 3.6+ */
+        background-image: -moz-linear-gradient(green, red);
+        /* Safari 5.1+, Chrome 10+ */
+        background-image: -webkit-linear-gradient(green, red);
+        /* Opera 11.10+ */
+        background-image: -o-linear-gradient(green, red);
+
+       }
 
 
