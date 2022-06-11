@@ -8,7 +8,10 @@
     background-color: blue;
     color: #ffffff;
     text-transform: uppercase;
- 
+    /*==========================
+    -webkit-transform: skewY(-30deg);
+    -webkit-transform: skewX(-30deg); */
+    
 }
  
 /* Exemplo de CSS Externo*/
@@ -34,8 +37,11 @@ body{
        /*Neto*/
     ul, li, a{
  
-       text-decoration: none; 
-       color: black;
+      /* text-decoration: none; 
+       color: black;*/
+
+       color: white;
+       background: gray;
        
     }
     ul li a:hover{
