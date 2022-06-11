@@ -40,20 +40,36 @@ body{
       /* text-decoration: none; 
        color: black;*/
 
+       /*color: white;
+       background: gray;*/
+
+       border:1px solid orange;
        color: white;
        background: gray;
+       transition: 0.5s;
+
+        /*display:block;
+        width:100px;
+        text-align:center;
+        font:bold 13px verdana, arial, tahoma, sans-serif;
+        text-decoration:none;
+        color:black;*/
        
     }
     ul li a:hover{
  
         /*text-decoration: none; 
-        color: blue;*/
+        color: blue;
 
         color: black;
-        background: yellow;
+        background: yellow;*/
+
+        color: black;
+        background: red;
+        transition: 0.5s;
         
      }
-     /*==========================================*/
+     /*=============== Coloca cor degrade no cabeçalho =============*/
      div {
         background-color: #FFF;
         /* imagem caso o browser não aceite a feature */
@@ -62,6 +78,14 @@ body{
         background-image: -moz-linear-gradient(green, red);
         /* Safari 5.1+, Chrome 10+ */
         background-image: -webkit-linear-gradient(blue, red);
+        
+        /*========= Faz o cabeçalho rodar - rotação ===========
+          ========= coloquei rotate no head style ====
+        -webkit-animation-name: rodaroda;
+        -webkit-animation-duration: 0.5s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: alternate; */
        }
 
 
