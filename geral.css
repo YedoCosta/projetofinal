@@ -25,14 +25,14 @@ body{
 
     }
        /*Filho*/
-    li{
+    ul li{
   
         display: inline;
         padding-left: 80px;
       
     }
        /*Neto*/
-    li a{
+    ul li a{
  
        text-decoration: none; 
        color: black;
