@@ -6,10 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Final - Escola</title>
     <link rel="stylesheet" type="text/css" href="geral.css"/>
+    <style>
+        form { 
+          display: block;
+          margin-top: 5em;
+        }
+        </style>
 </head>
 <body>
     <div id="topo">
         <h1 style="text-align: center ;">E Q U I P E</h1>
     </div>
+
+        <!--===========Inserir form=================== -->
+
+        <form action="/action_page.php">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+    
+        <!--============================== -->
 </body>
 </html>
