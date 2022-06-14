@@ -22,7 +22,7 @@
 nav{
     position: absolute;
     top:50px;
-    left:600px;
+    left:300px;
 }
 nav img {
     width: 31px;
@@ -112,7 +112,7 @@ body{
 
 
       #busca{
-        margin-left: 1000px;
+        margin-left: 800px;
    
       }
 
