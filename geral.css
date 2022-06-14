@@ -3,23 +3,35 @@
  
 #topo{
     width: 100%;
-    height: 120px;
+    height: 150px;
     border:1px solid green;
     background-color: #1673be;
     color: #ffffff;
     text-transform: uppercase;
 
+
+}
+
+#logo{
+  margin-left: 50px;
+  margin-top: 15px;
+  font-size: 15px;
+
 }
 
 nav{
     position: absolute;
-    top:30px;
+    top:50px;
     left:600px;
 }
 nav img {
-    width: 51px;
-    height: 51px;
+    width: 31px;
+    height: 31px;
 }
+
+
+
+
  
 /* Exemplo de CSS Externo*/
 body{
@@ -76,7 +88,7 @@ body{
         
      }
      /*=============== Coloca cor degrade no cabeçalho =============*/
-     div {
+     #topo {
         background-color: #FFF;
         /* imagem caso o browser não aceite a feature */
         background-image: url(images/gradiente.png);
@@ -95,5 +107,17 @@ body{
 
         
        }
+       #rodape {
+        width: 100%;
+        height: 50px;
+        border: 2px solid red;
+      }
+
+
+      #busca{
+        margin-left: 1000px;
+   
+    }
+
 
 
