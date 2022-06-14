@@ -8,9 +8,14 @@
     <link rel="stylesheet" type="text/css" href="reset.css"/> 
      <!-- a -->
     <link rel="stylesheet" type="text/css" href="geral.css"/> 
+    <!--  pulugins-->
     
+    <script type="text/javascript" src="bibliotecas/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="plugins/coin-slider.min.js"></script>
+    <link rel="stylesheet" href="plugins/coin-slider-styles.css" type="text/css" />
 
     <!--Exempo de CSS Interno - é como se eu tivesse no CSS -->
+
     <style>
       /*  ul{
             background-color: yellow;
@@ -31,9 +36,8 @@
 <body>
     <div id="topo">
         <div id="logo">
-            <img src=imagens/caneca.png width="100" height="100"> CanecaNerd &reg;
+            <img src=imagens/caneca.png width="80" height="80"> CanecaNerd &reg;
         </div>
-
         <nav>
             <ul>
                  <li><a href="index.html"><img src="imagens/home.png"></a></li>
@@ -42,49 +46,52 @@
                  <li><a href="portifolio.html"><img src="imagens/carrinho.png"></a></li>
                  <li><a href="midia.html"><img src="imagens/instagram.png"></a></li>
                 <li><a href="faleconosco.html"><img src="imagens/whatsapp.png"></a></li>
-
             </ul>
 
             <div id="busca">
                 <form action="#" method="post">
                      pesquisa <input type="text">
-                 </form>
-             </div>
+                </form>
+            </div>
         </nav>
-
-    
     </div>
-    <!--
-        <ul >
-
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="equipe.html">A EQUIPE</a></li>
-        <li><a href="projeto.html">O PROJETO</a></li>
-        <li><a href="midia.html">NA MÍDIA</a></li>
-        <li><a href="portifolio.html">PORTIFÓLIO</a></li>
-        <li><a href="faleconosco.html">FALE CONOSCO</a></li>
-        </ul>
-    -->
-    <p style="text-align: center ;">
-        <strong>Objetivos:</strong>
-        <em>Aplicar conhecimentos do curso de <strong>Desenvolvedor C#</strong></em>
-    </p>
-
-    <!--Exemplo de CSS InLine - na mesma linha-->
-    <p style="font-size: 28px; text-align: center ;">
-        Projeto Escola IA - será desenvolvido pelos alunos do SENAI Brasília, do curso de Desenvolvedor C# 
-        neste projeto os alunos terão oportunidade de demonstrar comperências técnicas no desenvolvimento FULLSTACK.
-   
-    </p>
-    <p style="text-align: center ;">
-        O Senai Brasilia fica localizado na Capital Federal próximo aos poderes do País.
-    </p>
-    <p style="text-align: center ;">
-        A equipe é formada por professores, alunos especialista e profissionais do mercado local.
-        
-    </p>
+    <main>
+        <div id='coin-slider'>
+            <a href="lobo_url" target="_blank">
+                <img src='imagens/lobo.jpg' width="1500" height="1500" >
+                <span>
+                    Lobo
+                </span>
+            </a>
+            <a href="veleiro_url">
+                <img src='imagens/veleiro.jpg' >
+                <span>
+                    Veleiro
+                </span>
+            </a>
+            <a href="leao_url">
+                <img src='imagens/leao.jpg' >
+                <span>
+                    Leâo
+                </span>
+            </a>
+            <a href="arara_url">
+                <img src='imagens/arara.jpg' >
+                <span>
+                    Arara
+                </span>
+            </a>
+        </div>
+    </main>
     <div id="rodape">
         CanecaNerd &copy;
     </div>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#coin-slider').coinslider();
+        });
+    </script>
+
 </body>
 </html>
